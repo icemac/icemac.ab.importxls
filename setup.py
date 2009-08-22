@@ -9,19 +9,21 @@ def read(*path_elements):
     return "\n\n" + file(os.path.join(*path_elements)).read()
 
 version = '0.1dev'
+name = 'icemac.ab.importxls'
 
 setuptools.setup(
-    name='icemac.ab.importexport',
+    name=name,
     version=version,
-    description="Import and export interface for icemac.addressbook",
+    description="Import XLS files into icemac.addressbook.",
     long_description=(
         read('README.txt') +
+        '\n\n.. contents::\n\n' +
         read('CHANGES.txt')
         ),
-    keywords='icemac.addressbook',
+    keywords='icemac.addressbook xls excel import',
     author='Michael Howitz',
     author_email='icemac@gmx.net',
-    url='http://pypi.python.org/pypi/icemac.ab.importexport',
+    url='http://pypi.python.org/pypi/%s' % name,
     license='ZPL 2.1',
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -41,9 +43,11 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'icemac.ab.importer',
         'setuptools',
+        'xlrd',
         ],
     extras_require = dict(
-        test=['zope.testing',
+        test=['zope.testing >= 3.8.0',
               ]),
     )

@@ -9,5 +9,5 @@ import icemac.ab.importxls.xls
 class TestXLS(icemac.ab.importer.reader.testing.BaseReaderTest):
 
     reader_class = icemac.ab.importxls.xls.XLSReader
-    import_file = 'xls_default.xls'
-    import_file_short = 'xls_short.xls'
+    import_file = 'long.xls'
+    import_file_short = 'short.xls'

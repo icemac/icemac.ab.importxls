@@ -39,6 +39,8 @@ class XLSReader(icemac.ab.importer.reader.base.BaseReader):
             res = datetime.date(*date_tuple[:3])
         elif res == '':
             res = None
+        elif isinstance(res, float):
+            res = unicode(res)
         return res
 
     def getFieldNames(self):
@@ -59,7 +61,4 @@ class XLSReader(icemac.ab.importer.reader.base.BaseReader):
     def __iter__(self):
         """Iterate over the file."""
         for index in xrange(1, self.sheet.nrows):
-            keys = [field_idx
-                    for field_idx, name in enumerate(self.field_names)]
-            values = [self._convert_value(val) for val in self.sheet.row(index)]
-            yield dict(zip(keys, values))
+            yield [self._convert_value(val) for val in self.sheet.row(index)]

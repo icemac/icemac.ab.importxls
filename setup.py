@@ -8,7 +8,7 @@ import setuptools
 def read(*path_elements):
     return "\n\n" + file(os.path.join(*path_elements)).read()
 
-version = '1.0dev'
+version = '0.9.1'
 name = 'icemac.ab.importxls'
 
 setuptools.setup(
@@ -42,7 +42,7 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'icemac.ab.importer',
+        'icemac.ab.importer > 0.9',
         'setuptools',
         'xlrd',
         ],

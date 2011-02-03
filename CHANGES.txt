@@ -5,7 +5,9 @@
 1.0 (unreleased)
 ================
 
-- Nothing changed yet.
+- Updated development dependencies.
+
+- Updated package meta data.
 
 
 0.9.1 (2009-09-28)

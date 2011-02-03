@@ -4,11 +4,9 @@
 
 from icemac.addressbook.i18n import MessageFactory as _
 import datetime
-import icemac.ab.importer.interfaces
 import icemac.ab.importer.reader.base
 import mmap
 import xlrd
-import zope.interface
 
 
 class XLSReader(icemac.ab.importer.reader.base.BaseReader):

@@ -25,7 +25,7 @@ setuptools.setup(
     url='http://pypi.python.org/pypi/%s' % name,
     license='ZPL 2.1',
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Paste',
         'Framework :: Zope3',
@@ -35,6 +35,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.5',
+        'Programming Language :: Python :: 2.6',
         ],
     packages=setuptools.find_packages('src'),
     package_dir = {'': 'src'},

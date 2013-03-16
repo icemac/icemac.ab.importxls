@@ -4,4 +4,5 @@ bin
 parts
 .installed.cfg
 .mr.developer.cfg
-
+*.egg-info
+*.pyc

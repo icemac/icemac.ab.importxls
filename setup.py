@@ -16,8 +16,8 @@ setuptools.setup(
     version=version,
     description="Import XLS files into icemac.addressbook.",
     long_description=(
-        read('README.txt') +
-        read('CHANGES.txt')
+        read('README.rst') +
+        read('CHANGES.rst')
         ),
     keywords='icemac.addressbook xls excel import',
     author='Michael Howitz',

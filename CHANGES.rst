@@ -5,7 +5,7 @@
 1.1 (unreleased)
 ================
 
-- Nothing changed yet.
+- Moved repository to: https://bitbucket.org/icemac/icemac.ab.importxls
 
 
 1.0 (2011-02-03)

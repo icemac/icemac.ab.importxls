@@ -2,10 +2,12 @@
  Changelog
 ===========
 
-1.1 (unreleased)
+2.0 (unreleased)
 ================
 
 - Moved repository to: https://bitbucket.org/icemac/icemac.ab.importxls
+
+- Made Python 2.7 the only supported Python version.
 
 
 1.0 (2011-02-03)

@@ -9,6 +9,8 @@
 
 - Made Python 2.7 the only supported Python version.
 
+- Update to current ``bootstrap.py`` to fix `Travis CI`.
+
 
 1.0 (2011-02-03)
 ================

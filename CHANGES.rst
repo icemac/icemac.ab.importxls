@@ -11,6 +11,8 @@
 
 - Update to current ``bootstrap.py`` to fix `Travis CI`.
 
+- Pin versions for test runs.
+
 
 1.0 (2011-02-03)
 ================

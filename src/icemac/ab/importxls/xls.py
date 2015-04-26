@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Copyright (c) 2009-2014 Michael Howitz
-# See also LICENSE.txt
-
 from icemac.addressbook.i18n import MessageFactory as _
 import datetime
 import icemac.ab.importer.reader.base
@@ -10,6 +6,7 @@ import xlrd
 
 
 class XLSReader(icemac.ab.importer.reader.base.BaseReader):
+
     """Import reader for XLS files."""
 
     title = _(u'Microsoft Excel file')

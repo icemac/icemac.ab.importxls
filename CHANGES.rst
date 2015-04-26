@@ -9,7 +9,7 @@
 
 - Made Python 2.7 the only supported Python version.
 
-- Update to current ``bootstrap.py`` to fix `Travis CI`.
+- Update to ``bootstrap.py`` from `zc.buildout 2.3.1`.
 
 - Pin versions for test runs.
 

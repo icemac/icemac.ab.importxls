@@ -8,7 +8,7 @@ import setuptools
 def read(*path_elements):
     return "\n\n" + file(os.path.join(*path_elements)).read()
 
-version = '2.0dev'
+version = '2.0'
 name = 'icemac.ab.importxls'
 
 setuptools.setup(

@@ -2,7 +2,7 @@
  Changelog
 ===========
 
-2.0 (unreleased)
+2.0 (2015-04-26)
 ================
 
 - Moved repository to: https://bitbucket.org/icemac/icemac.ab.importxls

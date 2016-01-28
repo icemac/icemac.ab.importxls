@@ -5,7 +5,7 @@
 2.1 (unreleased)
 ================
 
-- Nothing changed yet.
+- Use py.test as test runner.
 
 
 2.0 (2015-04-26)

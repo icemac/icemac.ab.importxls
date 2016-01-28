@@ -1,8 +1,10 @@
 syntax: glob
-develop-eggs
-bin
-parts
-.installed.cfg
-.mr.developer.cfg
+
 *.egg-info
 *.pyc
+.cache
+.installed.cfg
+.mr.developer.cfg
+bin
+develop-eggs
+parts

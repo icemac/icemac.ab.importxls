@@ -32,9 +32,6 @@ or fork me on: https://bitbucket.org/icemac/icemac.ab.importxls
 Running Tests
 -------------
 
-.. .. image:: https://secure.travis-ci.org/icemac/icemac.ab.importxls.png
-..    :target: https://travis-ci.org/icemac/icemac.ab.importxls
-
 To run the tests yourself call::
 
   $ python2.7 bootstrap.py

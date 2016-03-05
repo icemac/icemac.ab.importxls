@@ -43,7 +43,7 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'icemac.ab.importer > 0.9',
+        'icemac.ab.importer >= 1.0',
         'setuptools',
         'xlrd',
     ],

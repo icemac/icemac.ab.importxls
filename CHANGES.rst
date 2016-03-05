@@ -2,7 +2,7 @@
  Changelog
 ===========
 
-2.1 (unreleased)
+2.1 (2016-03-05)
 ================
 
 - Use py.test as test runner.

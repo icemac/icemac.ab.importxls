@@ -7,7 +7,7 @@ def read(*path_elements):
     """Read a file."""
     return "\n\n" + file(os.path.join(*path_elements)).read()
 
-version = '2.1.dev0'
+version = '2.1'
 name = 'icemac.ab.importxls'
 
 setuptools.setup(

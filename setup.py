@@ -21,7 +21,7 @@ setuptools.setup(
     keywords='icemac.addressbook xls excel import',
     author='Michael Howitz',
     author_email='icemac@gmx.net',
-    url='http://pypi.python.org/pypi/%s' % name,
+    url='https://pypi.org/project/%s' % name,
     license='ZPL 2.1',
     classifiers=[
         'Development Status :: 5 - Production/Stable',

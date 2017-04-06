@@ -5,7 +5,7 @@
 2.3 (unreleased)
 ================
 
-- Nothing changed yet.
+- Include test code in coverage analysis.
 
 
 2.2 (2017-01-07)

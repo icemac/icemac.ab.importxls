@@ -7,6 +7,8 @@
 
 - Include test code in coverage analysis.
 
+- Add CI.
+
 
 2.2 (2017-01-07)
 ================

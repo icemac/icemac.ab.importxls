@@ -2,7 +2,7 @@
  Changelog
 ===========
 
-2.3 (unreleased)
+2.3 (2017-04-08)
 ================
 
 - Include test code in coverage analysis.

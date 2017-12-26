@@ -5,7 +5,7 @@
 2.4 (unreleased)
 ================
 
-- Nothing changed yet.
+- Also release as wheel.
 
 
 2.3 (2017-04-08)

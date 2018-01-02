@@ -6,7 +6,7 @@ This package enables `icemac.addressbook`_ to import XLS (Excel) files.
 
 .. _`icemac.addressbook` : https://pypi.org/project/icemac.addressbook
 
-Copyright (c) 2009-2017 Michael Howitz
+Copyright (c) 2009-2018 Michael Howitz
 
 All Rights Reserved.
 

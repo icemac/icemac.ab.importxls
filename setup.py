@@ -5,7 +5,8 @@ import setuptools
 
 def read(*path_elements):
     """Read a file."""
-    return "\n\n" + file(os.path.join(*path_elements)).read()
+    with open(os.path.join(*path_elements)) as f:
+        return f.read()
 
 version = '2.4.dev0'
 name = 'icemac.ab.importxls'
@@ -14,10 +15,10 @@ setuptools.setup(
     name=name,
     version=version,
     description="Import XLS files into icemac.addressbook.",
-    long_description=(
-        read('README.rst') +
+    long_description="\n\n".join([
+        read('README.rst'),
         read('CHANGES.rst')
-    ),
+    ]),
     keywords='icemac.addressbook xls excel import',
     author='Michael Howitz',
     author_email='icemac@gmx.net',
@@ -26,14 +27,10 @@ setuptools.setup(
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
-        'Framework :: Paste',
         'Framework :: Zope3',
-        'License :: OSI Approved',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 2 :: Only',
     ],

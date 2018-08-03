@@ -5,7 +5,7 @@
 2.4 (unreleased)
 ================
 
-- Nothing changed yet.
+- Change license from ZPL to MIT.
 
 
 2.3.post1 (2017-12-26)

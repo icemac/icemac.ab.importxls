@@ -5,7 +5,8 @@
 2.5 (unreleased)
 ================
 
-- Nothing changed yet.
+- Change installation procedure from `bootstrap.py` to `virtualenv`,
+  see `README.txt`.
 
 
 2.4 (2018-08-03)

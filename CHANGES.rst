@@ -2,7 +2,7 @@
  Changelog
 ===========
 
-2.5 (unreleased)
+2.5 (2018-10-13)
 ================
 
 - Change installation procedure from `bootstrap.py` to `virtualenv`,

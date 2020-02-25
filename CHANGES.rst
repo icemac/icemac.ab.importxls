@@ -5,7 +5,7 @@
 2.6 (unreleased)
 ================
 
-- Nothing changed yet.
+- Move code repository to https://github.com/icemac/icemac.ab.importxls.
 
 
 2.5 (2018-10-13)

@@ -6,7 +6,7 @@ This package enables `icemac.addressbook`_ to import XLS (Excel) files.
 
 .. _`icemac.addressbook` : https://pypi.org/project/icemac.addressbook
 
-Copyright (c) 2009-2019 Michael Howitz
+Copyright (c) 2009-2020 Michael Howitz
 
 This package is licensed under the MIT License, see LICENSE.txt inside the
 package.
@@ -19,9 +19,9 @@ Source code
 
 Get the source code::
 
-   $ hg clone https://bitbucket.org/icemac/icemac.ab.importxls
+   $ git clone https://github.com/icemac/icemac.ab.importxls
 
-or fork me on: https://bitbucket.org/icemac/icemac.ab.importxls
+or fork me at https://github.com/icemac/icemac.ab.importxls.
 
 Running Tests
 -------------

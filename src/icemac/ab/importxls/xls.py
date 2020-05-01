@@ -3,6 +3,8 @@ import datetime
 import icemac.ab.importer.reader.base
 import mmap
 import xlrd
+import six
+from six.moves import range
 
 
 class XLSReader(icemac.ab.importer.reader.base.BaseReader):
@@ -35,7 +37,7 @@ class XLSReader(icemac.ab.importer.reader.base.BaseReader):
         elif res == '':
             res = None
         elif isinstance(res, float):
-            res = unicode(res)
+            res = six.text_type(res)
         return res
 
     def getFieldNames(self):
@@ -50,10 +52,10 @@ class XLSReader(icemac.ab.importer.reader.base.BaseReader):
             if val is None:
                 val = u''
             elif isinstance(val, datetime.date):
-                val = unicode(val.strftime('%Y-%m-%d'))
+                val = six.text_type(val.strftime('%Y-%m-%d'))
             yield val
 
     def __iter__(self):
         """Iterate over the file."""
-        for index in xrange(1, self.sheet.nrows):
+        for index in range(1, self.sheet.nrows):
             yield [self._convert_value(val) for val in self.sheet.row(index)]

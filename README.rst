@@ -26,9 +26,9 @@ or fork me at https://github.com/icemac/icemac.ab.importxls.
 Running Tests
 -------------
 
-To run the tests yourself call::
+To run the tests yourself call inside the checkout directory::
 
-  $ virtualenv-2.7 .
+  $ python3 -m venv .
   $ bin/pip install zc.buildout
   $ bin/buildout
   $ bin/py.test

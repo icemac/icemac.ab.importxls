@@ -31,8 +31,10 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 2 :: Only',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.8',
     ],
     packages=setuptools.find_packages('src'),
     package_dir={'': 'src'},
@@ -40,8 +42,9 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'icemac.ab.importer >= 1.0',
+        'icemac.ab.importer >= 2.13.dev0',
         'setuptools',
+        'six',
         'xlrd',
     ],
     extras_require=dict(

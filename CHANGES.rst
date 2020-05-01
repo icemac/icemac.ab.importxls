@@ -5,6 +5,8 @@
 2.6 (unreleased)
 ================
 
+- Add support for Python 3.8.
+
 - Move code repository to https://github.com/icemac/icemac.ab.importxls.
 
 
